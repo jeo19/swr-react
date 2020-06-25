@@ -1,6 +1,7 @@
 import React from 'react';
 import useSWR from 'swr';
 import { Pokemon } from './components/Pokemon';
+import './styles.css';
 
 const url = 'https://pokeapi.co/api/v2/pokemon';
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
